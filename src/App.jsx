@@ -15,7 +15,7 @@ const App = () => {
     <> 
       <Navbar />
       <Routes>
-          <Route path='/' element={<Home/>}></Route>
+          <Route path='/Youtube' element={<Home/>}></Route>
           <Route path='/video/:categoryId/:videoId' element={<Video/>}></Route>
       </Routes>
     </>
