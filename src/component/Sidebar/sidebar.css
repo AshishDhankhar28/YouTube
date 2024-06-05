@@ -1,0 +1,44 @@
+.sidebar-card{
+    padding: 20px;
+    align-items: center;
+}
+
+.main{
+    width: max-content;
+}
+.sidebar-card img{
+    height: 30px;
+    margin-right: 10px;
+}
+
+.sidebar-main{
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);  
+}
+
+.scard{
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.scard img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.sidebar-2{
+    padding: 20px;
+
+}
+
+.sidebar-2>p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+@media (max-width:606px) {
+  .main{
+    display: none;
+  }  
+}   

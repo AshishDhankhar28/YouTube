@@ -1,0 +1,40 @@
+.feed{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+    padding: 20px 40px;
+}
+
+.card{
+    width: 354px;
+    color: black;
+}
+
+.card img{
+    height: 200px;
+}
+
+@media (max-width:1365px) {
+    .feed{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width:976px) {
+    .feed{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media (max-width:436px) {
+    .feed{
+        padding: 10px 20px;
+    }
+}
+@media (max-width:395px) {
+    .feed{
+        padding: 10px 10px;
+    }
+}
+
+

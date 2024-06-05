@@ -1,0 +1,29 @@
+.video-right-card{
+    margin-left: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.videoright{
+    width: 30vw;
+}
+
+.content h3{
+    margin-bottom: 6px;
+    color: black;
+}
+.content p{
+    color: black;
+}
+
+.videoright img{
+    border-radius: 10px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+@media (max-width:1191px) {
+    .videoright{
+        width: 80vw;
+    }
+}
